@@ -1,0 +1,13 @@
+# 编译后的二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go 特定的忽略文件
+*.test
+*.out
+go.work
+
+# 依赖目录
+/vendor/
